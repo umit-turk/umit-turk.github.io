@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudoku Battle Support</title>
+  <meta name="description" content="Help and contact for Sudoku Battle: Brain Duel, the Sudoku app where you challenge friends on the same puzzle.">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --surface: #ffffff;
+      --ink: #1f2328;
+      --ink-secondary: #59636e;
+      --accent: #2f6bd9;
+      --border: #dfe3e8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #111316;
+        --surface: #1b1e22;
+        --ink: #eef0f2;
+        --ink-secondary: #a3acb6;
+        --accent: #5a92f9;
+        --border: #2c3137;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+    header img { width: 72px; height: 72px; border-radius: 16px; }
+    h1 { font-size: 1.6rem; line-height: 1.25; margin: 0; }
+    .tagline { color: var(--ink-secondary); margin: 4px 0 0; }
+    nav { margin: 24px 0; display: flex; gap: 12px; flex-wrap: wrap; }
+    nav a {
+      padding: 10px 18px; border-radius: 999px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600;
+    }
+    section { margin-top: 40px; }
+    h2 { font-size: 1.35rem; margin: 0 0 16px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+      padding: 20px; margin-bottom: 16px;
+    }
+    .card h3 { font-size: 1.05rem; margin: 0 0 6px; }
+    .card p { margin: 0; color: var(--ink-secondary); }
+    .contact { border-color: var(--accent); }
+    .contact a { font-size: 1.1rem; font-weight: 700; }
+    a { color: var(--accent); }
+    b { color: var(--ink); }
+    footer { margin-top: 48px; color: var(--ink-secondary); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Sudoku Battle: Brain Duel</h1>
+      <p class="tagline">Help and contact · Yardım ve iletişim</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#english">English</a>
+    <a href="#turkce">Türkçe</a>
+    <a href="https://github.com/umit-turk/sudoku-battle-privacy-policy">Privacy Policy · Gizlilik Politikası</a>
+  </nav>
+
+  <section id="english" lang="en">
+    <h2>Help</h2>
+
+    <div class="card contact">
+      <h3>Contact us</h3>
+      <p>Questions, problems or feedback: <a href="mailto:umityasarturk@gmail.com">umityasarturk@gmail.com</a>.
+        We usually answer within two working days.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do battles work?</h3>
+      <p>You and your opponent solve the same puzzle, each whenever you like. The higher score wins; if the scores
+        are equal, the faster time wins. Start one in <b>Battles → Quick Battle</b>, or find a friend with
+        <b>Battles → Find a Player</b> and challenge them from their profile.</p>
+    </div>
+
+    <div class="card">
+      <h3>How are points counted?</h3>
+      <p>A clean solve is worth 100 points on Easy, 150 on Medium, 200 on Hard and 250 on Expert. A 6×6 board
+        gives half and a 16×16 board three times as much. Each mistake costs 10 points and each hint 20.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do hints work?</h3>
+      <p>In new games and the daily challenge, watch a short video to get a hint. In battles you have one hint and
+        no videos. With <b>Remove Ads</b> you get 3 hints in every game without videos.</p>
+    </div>
+
+    <div class="card">
+      <h3>I bought Remove Ads but still see ads</h3>
+      <p>Open <b>Profile → Settings → Restore Purchases</b> while signed in to the App Store with the Apple ID you
+        used to buy it. The purchase works on all your devices with that Apple ID.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I delete my account?</h3>
+      <p>Open <b>Profile → Settings → Delete Account</b>. Your account and all its data are deleted permanently,
+        and the app's access to your Apple ID is revoked.</p>
+    </div>
+
+    <div class="card">
+      <h3>Someone is bothering me or has an offensive name</h3>
+      <p>Open their profile, tap <b>More</b> (•••) and choose <b>Block</b> or <b>Report</b>. Blocked players can't
+        find you, add you or challenge you. We review every report.</p>
+    </div>
+
+    <div class="card">
+      <h3>I don't get notifications</h3>
+      <p>Open the iPhone <b>Settings → Notifications → Sudoku Battle</b> and turn on Allow Notifications.
+        You need to be signed in to receive them.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I change the language?</h3>
+      <p>Open the iPhone <b>Settings → Apps → Sudoku Battle → Language</b>. The app is available in 21 languages.</p>
+    </div>
+
+    <div class="card">
+      <h3>Ads and privacy choices</h3>
+      <p>In the EU, UK and Switzerland you can change your ad consent in <b>Profile → Settings → Privacy Choices</b>.
+        See the <a href="https://github.com/umit-turk/sudoku-battle-privacy-policy">Privacy Policy</a> for what data
+        is collected.</p>
+    </div>
+  </section>
+
+  <section id="turkce" lang="tr">
+    <h2>Yardım</h2>
+
+    <div class="card contact">
+      <h3>Bize ulaşın</h3>
+      <p>Sorularınız, sorunlarınız ve önerileriniz için: <a href="mailto:umityasarturk@gmail.com">umityasarturk@gmail.com</a>.
+        Genellikle iki iş günü içinde yanıtlıyoruz.</p>
+    </div>
+
+    <div class="card">
+      <h3>Düellolar nasıl oynanır?</h3>
+      <p>Siz ve rakibiniz aynı bulmacayı, her biriniz istediği zaman çözer. Yüksek puanı alan kazanır; puanlar
+        eşitse daha hızlı bitiren kazanır. <b>Düellolar → Hızlı Düello</b> ile başlayabilir ya da
+        <b>Düellolar → Oyuncu Ara</b> ile bir arkadaşınızı bulup profilinden ona meydan okuyabilirsiniz.</p>
+    </div>
+
+    <div class="card">
+      <h3>Puanlar nasıl hesaplanır?</h3>
+      <p>Hatasız bir çözüm Kolay'da 100, Orta'da 150, Zor'da 200, Uzman'da 250 puan değerindedir. 6×6 tahta bunun
+        yarısını, 16×16 tahta üç katını verir. Her hata 10, her ipucu 20 puan düşürür.</p>
+    </div>
+
+    <div class="card">
+      <h3>İpuçları nasıl çalışır?</h3>
+      <p>Yeni oyunlarda ve Günlük Görev'de kısa bir video izleyerek ipucu alırsınız. Düellolarda video olmadan 1
+        ipucu hakkınız vardır. <b>Reklamları Kaldır</b> ile her oyunda video izlemeden 3 ipucu kullanırsınız.</p>
+    </div>
+
+    <div class="card">
+      <h3>Reklamları Kaldır'ı satın aldım ama hâlâ reklam görüyorum</h3>
+      <p>Satın aldığınız Apple Kimliği ile App Store'da oturum açıkken <b>Profil → Ayarlar → Satın Alımları Geri
+        Yükle</b>'ye dokunun. Satın alım, aynı Apple Kimliğini kullanan tüm cihazlarınızda geçerlidir.</p>
+    </div>
+
+    <div class="card">
+      <h3>Hesabımı nasıl silerim?</h3>
+      <p><b>Profil → Ayarlar → Hesabı Sil</b>'e dokunun. Hesabınız ve tüm verileri kalıcı olarak silinir;
+        uygulamanın Apple Kimliğinize erişimi de iptal edilir.</p>
+    </div>
+
+    <div class="card">
+      <h3>Biri beni rahatsız ediyor ya da adı uygunsuz</h3>
+      <p>Oyuncunun profilini açın, <b>Diğer</b> (•••) menüsünden <b>Engelle</b> ya da <b>Şikâyet Et</b>'i seçin.
+        Engellediğiniz oyuncular sizi bulamaz, ekleyemez ve size meydan okuyamaz. Her şikâyeti inceliyoruz.</p>
+    </div>
+
+    <div class="card">
+      <h3>Bildirim almıyorum</h3>
+      <p>iPhone <b>Ayarlar → Bildirimler → Sudoku Battle</b> bölümünden bildirimlere izin verin. Bildirim almak
+        için uygulamada giriş yapmış olmanız gerekir.</p>
+    </div>
+
+    <div class="card">
+      <h3>Dili nasıl değiştiririm?</h3>
+      <p>iPhone <b>Ayarlar → Uygulamalar → Sudoku Battle → Dil</b> bölümünden. Uygulama 21 dilde kullanılabilir.</p>
+    </div>
+
+    <div class="card">
+      <h3>Reklam ve gizlilik seçenekleri</h3>
+      <p>AB, Birleşik Krallık ve İsviçre'de reklam onayınızı <b>Profil → Ayarlar → Gizlilik Seçenekleri</b>
+        bölümünden değiştirebilirsiniz. Hangi verilerin toplandığını
+        <a href="https://github.com/umit-turk/sudoku-battle-privacy-policy">Gizlilik Politikası</a>'nda
+        bulabilirsiniz.</p>
+    </div>
+  </section>
+
+  <footer>© 2026 Sudoku Battle: Brain Duel</footer>
+</main>
+</body>
+</html>
